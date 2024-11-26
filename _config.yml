@@ -818,8 +818,8 @@ plausible:
 leancloud_visitors:
   # Do not enable both `valine.visitor` and `leancloud_visitors`
   enable: true
-  app_id: yFkRAPmVm9OilA3TogFeEBIa-gzGzoHsz
-  app_key: 9jeQWDv9cEc3ApGSEEoSDXkv
+  app_id: RIqzuwdV0iZwT6XIZjv74zCj-MdYXbMMI
+  app_key: 9gRe7wBvmmjIneYA9pYAJywK
   # Required for apps from CN region
   server_url: https://lucmann.github.io/
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
