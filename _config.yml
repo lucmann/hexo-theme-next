@@ -670,14 +670,14 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active:
+  active: disqusjs
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
   lazyload: false
   # Modify texts or order for any naves, here are some examples.
   nav:
-    disqus:
+    disqusjs:
      text: Load Disqus
      order: -1
     #gitalk:
@@ -686,7 +686,7 @@ comments:
 # Disqus
 # For more information: https://disqus.com
 disqus:
-  enable: true
+  enable: false
   shortname: lucmann-github-io
   count: true
 
@@ -697,8 +697,8 @@ disqusjs:
   # API Endpoint of Disqus API (https://disqus.com/api/docs/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
-  # api: https://disqus.skk.moe/disqus/
-  api:
+  api: https://disqus.skk.moe/disqus/
+  # api:
   apikey: dU7ECwTIparJ7XRyAKYyo06OPMyWfEixG4PyB2tdbvA4X1Mtl7TolhdAkDERew3y # Register new application from https://disqus.com/api/applications/
   shortname: lucmann-github-io # See: https://disqus.com/admin/settings/general/
 
