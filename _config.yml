@@ -821,7 +821,7 @@ leancloud_visitors:
   app_id: RIqzuwdV0iZwT6XIZjv74zCj-MdYXbMMI
   app_key: 9gRe7wBvmmjIneYA9pYAJywK
   # Required for apps from CN region
-  server_url: https://lucmann.github.io/
+  server_url:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
